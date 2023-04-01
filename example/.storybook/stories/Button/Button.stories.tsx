@@ -1,8 +1,9 @@
 import React from 'react';
 import { View } from 'react-native';
 import { Button } from 'example-react-native-ui';
+import type { ComponentMeta } from '@storybook/react-native';
 
-const ButtonMeta = {
+const ButtonMeta: ComponentMeta<typeof Button> = {
   title: 'Button',
   component: Button,
   argTypes: {
